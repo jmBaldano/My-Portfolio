@@ -34,7 +34,7 @@ const closeMenu = () => {
                     <a href="#Home" class="nav_button"> Home </a>
                     <a href="#About" class="nav_button"> About Me</a>
                     <a href="#Projects" class="nav_button"> Projects </a>
-                    <a href="/Baldano_Resume.pdf" target="_blank" class="nav_button"> CV </a>
+                    <a href="/My-Portfolio/Baldano_Resume.pdf" target="_blank" class="nav_button"> CV </a>
                 </aside>
 
                 <!-- hamburger design -->
