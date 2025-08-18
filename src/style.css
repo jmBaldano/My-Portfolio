@@ -26,13 +26,32 @@
     @apply hover:scale-150 w-full py-2 text-3xl font-bold duration-300 rounded-md mt-13 bg-blue-950 hover:bg-blue-900 max-w-50
 }
 .title{
-    @apply text-5xl font-bold text-center text-white;
-    
+    @apply text-3xl font-bold text-center text-gray-300;
 }
+.header{
+    @apply mb-4 text-3xl font-bold text-gray-300
+}
+.desc{
+    @apply text-lg leading-relaxed text-gray-400;
+}
+.hover{
+    @apply hover:scale-105 transition duration-300 ease-in-out  rounded-lg p-4;
+}
+.icons{
+    @apply w-15 h-15 hover:scale-150 duration-300 cursor-pointer;
+}
+.exp{
+    @apply hover:bg-white/10 rounded-md duration-300 hover:scale-105 p-4;
+}
+.thin{
+   @apply font-thin text-sm pt-2 text-gray-300 pl-3;
+}
+
 /* utilities */
 @layer utilities {
     body,
     html {
+        
         --font-sans:
        'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
        scroll-behavior: smooth;

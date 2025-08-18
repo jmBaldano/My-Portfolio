@@ -17,7 +17,7 @@ import { Head } from '@inertiajs/vue3'
             <!-- <div class="my-8 h-0.5 w-50 mx-auto bg-gradient-to-r from-gray-400 to-gray-500"></div> -->
             <section id="About" class=" section"> <About /> </section>
             <section id="Projects" class="section"> <Projects /> </section>
-            <section id="Contact" class="section"> <Contact /> </section>
+            <!-- <section id="Contact" class="section"> <Contact /> </section> -->
         </main>
         
     </Layout>
