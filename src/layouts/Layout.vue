@@ -21,7 +21,7 @@ const closeMenu = () => {
 
 <div class="NavLayout">
 <!-- fixed bg image -->
-<div class="fixed inset-0 w-full h-full bg-center bg-no-repeat bg-cover" style="background-image: url('/images/bg9.png'); background-attachment: fixed; "></div>
+<div class="fixed inset-0 w-full h-full bg-center bg-no-repeat bg-cover" style="background-image: url('./images/bg9.png'); background-attachment: fixed; "></div>
 <!-- Nav bar -->
     <div class="relative ">
         <header class=" mt-8 fixed mx-auto max-w-6xl rounded-full left-0 right-0  bg-[#080c34]/10 backdrop-blur-md text-white text-xs p-2 max-w ">
