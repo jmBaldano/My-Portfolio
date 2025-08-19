@@ -5,6 +5,12 @@ import About from './About.vue'
 import Contact from './Contact.vue'
 import Projects from './Projects.vue'
 import { Head } from '@inertiajs/vue3'
+
+// import { createRoot } from 'vue'
+// import { useTheme } from './composables/useTheme'
+
+
+// const { isDark } = useTheme()
 </script>
 <template>
     <Layout>

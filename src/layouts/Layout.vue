@@ -30,7 +30,7 @@ const closeMenu = () => {
                     <img src="/logo9.png" alt="logo" class ="rounded-b-sm  w-10 h-10 hover:scale-150 duration-300 cursor-pointer">
                 </div>
 
-                <aside class="hidden md:flex bg-[#253957] rounded-full text-lg font-bold space-x-8 px-8 py-1 ">
+                <aside class="hidden md:flex bg-[#253957] rounded-full text-lg font-bold space-x-8 px-8 py-1">
                     <a href="#Home" class="nav_button"> Home </a>
                     <a href="#About" class="nav_button"> About Me</a>
                     <a href="#Projects" class="nav_button"> Projects </a>
@@ -70,7 +70,7 @@ const closeMenu = () => {
 
 <!-- Floating Socials leftside (AI prompt)-->
 
-<div class="fixed flex-col  p-2 space-y-4  -translate-y-1/2 rounded-full shadow-lg  bottom-70 left-4 hidden md:block">
+<div class="fixed flex-col  p-2 space-y-4  -translate-y-1/2 rounded-full shadow-lg  bottom-70 left-4 ~sm/md:~mr-12/60">
   
     <!-- Facebook -->
    <a href="mailto:baldanojohnmark@gmail.com">
