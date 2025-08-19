@@ -57,7 +57,7 @@ const closeMenu = () => {
       <a href="#Home" @click="closeMenu" class="block px-4 py-3 text-white rounded-lg hover:bg-white/10">Home</a>
       <a href="#About" @click="closeMenu" class="block px-4 py-3 text-white rounded-lg hover:bg-white/10">About Me</a>
       <a href="#Projects" @click="closeMenu" class="block px-4 py-3 text-white rounded-lg hover:bg-white/10">Projects</a>
-      <a href="/Baldano_Resume" @click="closeMenu" class="block px-4 py-3 text-white rounded-lg hover:bg-white/10">CV</a>
+      <a href="/My-Portfolio/Baldano_Resume.pdf" target="_blank" @click="closeMenu" class="block px-4 py-3 text-white rounded-lg hover:bg-white/10">CV</a>
     </nav>
   </div>
 </div>
