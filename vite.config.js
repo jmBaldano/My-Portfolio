@@ -21,4 +21,5 @@ base: '/My-Portfolio/',
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  darkMode: 'class',
 })

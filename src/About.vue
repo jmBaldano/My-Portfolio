@@ -18,7 +18,7 @@
         ABOUT ME
       </h1>
       
-      <p class ="text-lg text-justify  text-gray-300 leading-relaxed max-w-4xl mx-auto mb-20">
+      <p class ="text-lg text-justify  text-gray-400 leading-relaxed max-w-4xl mx-auto mb-20">
         Graduate of Bachelor of Science in Information Technology Specialized in Web and Mobile application with a strong foundation in web development, particularly
         using Laravel, Vue.js, Tailwind CSS, and UI/UX design with Figma. I have a deep curiosity for
         technology and a commitment to lifelong learning. I was part of an award-winning team recognized
@@ -36,8 +36,8 @@
     <h1 class="text-2xl text-center font-semibold pb-10">
       Experience
     </h1>
-    <div class="hover:bg-white/10 rounded-md duration-300 hover:scale-105 p-4">
-      <ul class="list-disc marker:text-white  text-gray-400 pl-6 pr-10 leading-relaxed text-justify  ">
+    <div class="exp ">
+      <ul class="list-disc marker:text-white  text-gray-400 pl-6 pr-10 leading-relaxed">
         <h1 class="text-2xl font-semibold flex justify-between text-gray-300">Back-End Developer Intern<i class="thin">Jan 2025 - Mar 2025</i></h1>
         <i >Simplevia Technologies Inc.</i>
         <li>
@@ -53,13 +53,14 @@
         </li>
         <div class="flex flex-row space-x-5 mt-2">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="laravel" class="h-8 w-8" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="laravel" class="h-8 w-8" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" alt="vuejs" class="h-8 w-8" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="tailwincss" class="h-8 w-8" />
           </div>
           
       </ul>
     </div>
 
-<div class="hover:bg-white/10 rounded-md duration-300 hover:scale-105 p-4  marker:text-white">
+<div class="exp">
       <ul class="list-disc   text-gray-400 pl-6 pr-10 leading-relaxed text-justify  ">
         <h1 class="text-2xl font-semibold flex justify-between text-gray-300">UI/UX Web Designer Intern<i class="thin">May 2025 - July 2025</i></h1>
         <i >Simplevia Technologies Inc.</i>
@@ -72,6 +73,9 @@
         <li>
           <p class="leading-tight">Output revision based on our clients and Team Lead desired
           </p>
+          <div class="flex flex-row space-x-5 mt-2">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="figma" class="h-8 w-8" />
+          </div>
         </li>
         
       </ul>
@@ -83,7 +87,7 @@
     <h1 class="text-2xl text-center font-semibold pb-10">
       Academic
     </h1>
-    <div class="exp">
+    <div class="exp ">
       <h1 class="text-2xl font-semibold flex justify-between text-gray-300 ">Far Eastern University Diliman <i class="thin">2021 - 2025</i></h1>
       <i class="text-gray-400 ">College</i>
       <p class="text-gray-400 pt-4">Bachelor of Science in Information Technology with Specialization in Web and Mobile Applications.</p>
