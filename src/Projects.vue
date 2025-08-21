@@ -1,7 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-</script>
 <template>
     <div class="sections">
         <h1 class="title py-10 text-5xl font-bold text-center">
@@ -20,6 +16,7 @@ import { ref } from 'vue'
                 <p class="desc">
                     A Web Barangay Property Reservation with Billing System and Financial Analytics for Brgy. Batasan Hills
                 </p>
+                 <!-- stack used -->
             <div class=" flex flex-row gap-4">
                 <div class="mt-6 ">
                     <a href="https://laravel.com/" target="blank">
@@ -54,7 +51,7 @@ import { ref } from 'vue'
                 <img 
                     src="/images/gamehaven1.png" 
                     alt="Game Haven Project" 
-                    class="hover rounded-lg shadow-lg" >
+                    class="hover rounded-lg shadow-lg cursor-pointer" @click="open=true" >
             </div>
             
             
@@ -65,6 +62,7 @@ import { ref } from 'vue'
                     E-commerce platform designed for gamers, 
                     offering a wide range of  gaming consoles and other gaming accessories
                 </p>
+                 <!-- stack used -->
                 <div class="mt-6 ">
                     <a href="https://www.odoo.com/slides/slide/website-configurator-6929" target="blank">
                     <img src="https://mccedddy.github.io/portfolio/static/media/odoo.d7269ac577bab53a792aeadffe735964.svg" 
@@ -72,15 +70,38 @@ import { ref } from 'vue'
                     class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
                     </a>
                 </div>
+            </div >
+            <!--gamehaven modal -->
+            <div v-if="open" class="fixed inset-0 bg-black/85 flex justify-center items-center z-1 " @click="open=false">
+                <div class="relative ">
+                    <div ref="container" class="relative  max-w-3xl  right-50 bg-white/50 overflow-hidden rounded-lg shadow-lg gap-10" @click.stop>
+                        <div ref="carousel" class="flex transition-transform duration-300">
+                            <img src="/images/gamehaven2.png" alt="gamehaven1" class="w-full">
+                            <img src="/images/gamehaven3.png" alt="gamehaven2" class="w-full">
+                            <img src="/images/gamehaven4.png" alt="gamehaven3" class="w-full">
+                            <img src="/images/gamehaven5.png" alt="gamehaven4" class="w-full">
+                        </div>
+                        <button @click="prevSlide" class="text-3xl absolute top-1/2 left-2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full cursor-pointer">❮</button>
+                        <button @click="nextSlide" class="text-3xl absolute top-1/2 right-2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full cursor-pointer">❯</button>
+                    </div>
+                </div>
+               
+                    <p class="text-white text-3xl ">
+                        Desc
+                    </p>
+               
             </div>
+                
+
         </div>
 
+<!-- Portfolio proj -->
         <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
            
             <div class="w-full md:w-[70%]">
                 <img 
                     src="/images/portfolio.png" 
-                    alt="Game Haven Project" 
+                    alt="Portfolio" 
                     class="hover rounded-lg shadow-lg" >
             </div>
             
@@ -91,18 +112,19 @@ import { ref } from 'vue'
                 <p class="desc text-lg leading-relaxed">
                    This is my portfolio website, where I showcase my Experience througout my journey as a developer.
                 </p>
+                <!-- stack used -->
                 <div class="mt-6 flex flex-row space-x-3">
                     
                     <a href="https://www.vuejs.org" target="blank">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" 
-                    alt="odoo" 
+                    alt="vuejs" 
                     class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
                     </a>
                     
                     
                      <a href="https://www.tailwindcss.com" target="blank">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
-                    alt="odoo" 
+                    alt="tailwindcss" 
                     class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
                     </a>
                     
@@ -112,7 +134,38 @@ import { ref } from 'vue'
         </div>
 
     </div>
+
 </template>
+<script setup>
+ import {ref, onMounted, onBeforeUnmount} from "vue";
+ const open =ref(false);
+ const carousel = ref(null);
+ const container = ref(null);
+ const index = ref(0);
+ 
+const totalSlides = 4;
+
+function slideWidth() {
+  return container.value ? container.value.clientWidth : 0;
+}
+
+function showSlide() {
+  if (carousel.value) {
+    carousel.value.style.transform = `translateX(-${index.value * slideWidth()}px)`;
+  }
+}
+
+function nextSlide() {
+  index.value = (index.value + 1) % totalSlides;
+  showSlide();
+}
+
+function prevSlide() {
+  index.value = (index.value - 1 + totalSlides) % totalSlides;
+  showSlide();
+}
+
+</script>
 
 
 
