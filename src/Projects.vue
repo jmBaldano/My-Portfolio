@@ -72,7 +72,7 @@
                 </div>
             </div >
             <!--gamehaven modal -->
-            <div v-if="open" class="fixed inset-0 bg-black/85 flex justify-center items-center z-1 " @click="open=false">
+            <!-- <div v-if="open" class="fixed inset-0 bg-black/85 flex justify-center items-center z-1 " @click="open=false">
                 <div class="relative ">
                     <div ref="container" class="relative  max-w-3xl  right-50 bg-white/50 overflow-hidden rounded-lg shadow-lg gap-10" @click.stop>
                         <div ref="carousel" class="flex transition-transform duration-300">
@@ -90,7 +90,7 @@
                         Desc
                     </p>
                
-            </div>
+            </div> -->
                 
 
         </div>
@@ -125,6 +125,55 @@
                      <a href="https://www.tailwindcss.com" target="blank">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
                     alt="tailwindcss" 
+                    class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+<!-- Rock, Paper, Scissors proj-->
+        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+           
+            <div class="w-full md:w-[70%]">
+                <img 
+                    src="/images/rps1.png" 
+                    alt="Portfolio" 
+                    class="hover rounded-lg shadow-lg" >
+            </div>
+            
+            
+            <!-- Right Description -->
+            <div class="hover w-full m-10 md:w-1/2 rounded-lg shadow-lg">
+                <h2 class="header mb-4 text-3xl font-bold text-white">Rock, Paper, Scissors</h2>
+                <p class="desc text-lg leading-relaxed">
+                   A simple minigame project for rock paper and scissors
+                   <br>
+                   
+                   <a href="https://jmbaldano.github.io/Rock-Paper-and-Scissors/" target="_blank" class="hover:scale-110 transform transition duration-300">
+                    Visit: Rock, Paper, Scissors
+                    </a>
+                </p>
+                
+                <!-- stack used -->
+                <div class="mt-6 flex flex-row space-x-3">
+                    
+                    <a href="https://www.vuejs.org" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
+                    alt="html5" 
+                    class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
+                    </a>
+                    
+                    
+                     <a href="https://www.tailwindcss.com" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+                    alt="css3" 
+                    class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
+                    </a>
+
+                     <a href="https://www.tailwindcss.com" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+                    alt="js" 
                     class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
                     </a>
                     
