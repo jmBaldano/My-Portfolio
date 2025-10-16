@@ -19,7 +19,7 @@
       </h1>
       
       <p class ="text-lg text-justify  text-gray-400 leading-relaxed max-w-4xl mx-auto mb-20">
-        Graduate of Bachelor of Science in Information Technology Specialized in Web and Mobile application with a strong foundation in web development, particularly
+        Graduate of Bachelor of Science in Information Technology Specialized in Web and Mobile application from FEU Diliman with a strong foundation in web development, particularly
         using Laravel, Vue.js, Tailwind CSS, and UI/UX design with Figma. I have a deep curiosity for
         technology and a commitment to lifelong learning. I was part of an award-winning team recognized
         for Best Web Application at TICap 18. I am now seeking an opportunity to be part of a real-world
