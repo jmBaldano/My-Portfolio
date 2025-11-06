@@ -149,10 +149,11 @@
                 <p class="desc text-lg leading-relaxed">
                    A simple minigame project for rock paper and scissors
                    <br>
-                   
-                   <a href="https://jmbaldano.github.io/Rock-Paper-and-Scissors/" target="_blank" class="hover:scale-110 transform transition duration-300">
-                    Visit: Rock, Paper, Scissors
+                   Visit:
+                   <a href="https://jmbaldano.github.io/Rock-Paper-and-Scissors/" target="_blank" class="hover:scale-110 transform transition duration-300 hover:underline">
+                    Rock, Paper, Scissors
                     </a>
+                    
                 </p>
                 
                 <!-- stack used -->
@@ -179,6 +180,91 @@
                     
                 </div>
                 
+            </div>
+        </div>
+
+        <!-- Real Estate Website -->
+        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+           
+            <div class="w-full md:w-[70%]">
+                <img 
+                    src="/images/realEstate1.png" 
+                    alt="Portfolio" 
+                    class="hover rounded-lg shadow-lg" >
+            </div>
+            
+            
+            <!-- Right Description -->
+            <div class="hover w-full m-10 md:w-1/2 rounded-lg shadow-lg">
+                <h2 class="header mb-4 text-3xl font-bold text-white">Real Estate Website</h2>
+                <p class="desc text-lg leading-relaxed">
+                   A Real estate personal website
+                   <br>
+                   Visit:
+                   <a href="https://real-estate-website-five-mu.vercel.app/" target="_blank" class="hover:scale-110 transform transition duration-300 hover:underline">
+                    Real Estate Website
+                    </a>
+                </p>
+                
+                <!-- stack used -->
+               <div class="mt-6 flex flex-row space-x-3">
+                    
+                    <a href="https://www.vuejs.org" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" 
+                    alt="vuejs" 
+                    class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
+                    </a>
+                    
+                    
+                     <a href="https://www.tailwindcss.com" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
+                    alt="tailwindcss" 
+                    class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Website -->
+        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+           
+            <div class="w-full md:w-[70%]">
+                <img 
+                    src="/images/mhelPortfolio1.png" 
+                    alt="Portfolio" 
+                    class="hover rounded-lg shadow-lg" >
+            </div>
+            
+            
+            <!-- Right Description -->
+            <div class="hover w-full m-10 md:w-1/2 rounded-lg shadow-lg">
+                <h2 class="header mb-4 text-3xl font-bold text-white">Portfolio Website</h2>
+                <p class="desc text-lg leading-relaxed">
+                   A Personal portfolio website
+                   <br>
+                   Visit:
+                   <a href="" target="_blank" class="hover:scale-110 transform transition duration-300 hover:underline">
+                    Portfolio Website
+                    </a>
+                </p>
+                
+                <!-- stack used -->
+               <div class="mt-6 flex flex-row space-x-3">
+                    
+                    <a href="https://www.vuejs.org" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" 
+                    alt="vuejs" 
+                    class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
+                    </a>
+                    
+                    
+                     <a href="https://www.tailwindcss.com" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
+                    alt="tailwindcss" 
+                    class="stack-used w-7 h-7 hover:scale-150 duration-300 cursor-pointer" />
+                    </a>
+                    
+                </div>
             </div>
         </div>
 
