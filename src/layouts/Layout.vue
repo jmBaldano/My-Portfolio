@@ -106,7 +106,7 @@ const closeMenu = () => {
 
 <footer class="bg-white/10 backdrop-blur-md text-white text-center p-2 h-20:md items-center font-light text-sm ">
   
-  <p>This website is made by John Mark Baldano. Built with VueJS and Tailwind CSS, deployed with GitHub Pages. All icons are from devicon.dev.</p>
+  <p>This website is made by John Mark Baldano. Built with VueJS and Tailwind CSS, deployed with GitHub Pages. All icons are from devicon.dev.<span class="pl-5 font-semibold">(Last Update: Nov 6, 2025)</span></p>
 
   
   </footer>
