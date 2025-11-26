@@ -14,11 +14,11 @@
        
     <div class="sections w-full px-0">
       
-      <h1 class="title text-3xl font-bold text-center text-white  py-10">
+      <h1 data-aos="fade-left" class="title text-3xl font-bold text-center text-white  py-10">
         ABOUT ME
       </h1>
       
-      <p class ="text-lg text-justify  text-gray-400 leading-relaxed max-w-4xl mx-auto mb-20">
+      <p data-aos="fade-right" class ="text-lg text-justify  text-gray-400 leading-relaxed max-w-4xl mx-auto mb-20">
         Graduate of Bachelor of Science in Information Technology Specialized in Web and Mobile application from FEU Diliman with a strong foundation in web development, particularly
         using Laravel, Vue.js, Tailwind CSS, and UI/UX design with Figma. I have a deep curiosity for
         technology and a commitment to lifelong learning. I was part of an award-winning team recognized
@@ -32,12 +32,12 @@
 <section class="grid sm:grid-cols-2 grid-rows-1 gap-20 mt-20 text-gray-300 lg:grid-cols-2">
 
   <!-- Exp -->
-  <div class="text-justify mx-auto">
+  <div  class="text-justify mx-auto">
     <h1 class="text-2xl text-center font-semibold pb-10">
       Experience
     </h1>
-    <div class="exp ">
-      <ul class="list-disc marker:text-white  text-gray-400 pl-6 pr-10 leading-relaxed">
+    <div  class="exp ">
+      <ul data-aos="fade-up" class="list-disc marker:text-white  text-gray-400 pl-6 pr-10 leading-relaxed">
         <h1 class="text-2xl font-semibold flex justify-between text-gray-300">Back-End Developer Intern<i class="thin">Jan 2025 - Mar 2025</i></h1>
         <i >Simplevia Technologies Inc.</i>
         <li>
@@ -61,7 +61,7 @@
     </div>
 
 <div class="exp">
-      <ul class="list-disc   text-gray-400 pl-6 pr-10 leading-relaxed text-justify  ">
+      <ul data-aos="fade-up" class="list-disc   text-gray-400 pl-6 pr-10 leading-relaxed text-justify  ">
         <h1 class="text-2xl font-semibold flex justify-between text-gray-300">UI/UX Web Designer Intern<i class="thin">May 2025 - July 2025</i></h1>
         <i >Simplevia Technologies Inc.</i>
         <li>
@@ -87,13 +87,13 @@
     <h1 class="text-2xl text-center font-semibold pb-10">
       Academic
     </h1>
-    <div class="exp ">
+    <div data-aos="fade-up" class="exp ">
       <h1 class="text-2xl font-semibold flex justify-between text-gray-300 ">Far Eastern University Diliman <i class="thin">2021 - 2025</i></h1>
       <i class="text-gray-400 ">College</i>
       <p class="text-gray-400 pt-4">Bachelor of Science in Information Technology with Specialization in Web and Mobile Applications.</p>
     </div>
-    <div class="exp">
-      <h1 class="text-2xl font-semibold flex justify-between text-gray-300">St. John Technological College of the Philippines  <i class="thin">2018-2020</i></h1>
+    <div data-aos="fade-up" class="exp">
+      <h1 class="text-2xl font-semibold flex justify-between text-gray-300">St. John Technological College <br> of the Philippines  <i class="thin">2018 - 2020</i></h1>
       <i class="text-gray-400 ">Senior Highschool</i>
       <p class="text-gray-400 pt-3">Humanities and Social Sciences (HUMSS)</p>
     </div>
@@ -107,7 +107,7 @@
       <!-- skills -->
 
 <div class="  grid grid-cols-2 grid-rows-1 gap-30 md:grid-cols-2 mt-20">
-    <div class="col1">
+    <div data-aos="fade-right" class="col1">
       <h1 class="text-2xl font-semibold text-gray-400 text-center py-10">
         Tools / Frameworks
       </h1>
@@ -160,7 +160,7 @@
 
           </div>
     </div>
-    <div class="col2 ">
+    <div data-aos="fade-left" class="col2 ">
       <h1 class="text-2xl font-semibold text-gray-400 text-center py-10">
         Languages
       </h1>
@@ -200,16 +200,16 @@
 
 
     <div class="mt-20">
-   <h1 class="text-2xl text-gray-300 text-center pt-15 font-bold">More About Me</h1>
+   <h1 class="text-3xl text-gray-300 text-center pt-15 font-bold">More About Me</h1>
     </div>
   
 <!-- Award img -->
- <div class="flex flex-col items-center gap-8 px-4 py-8 md:flex-row">
+ <div data-aos="fade-right" class="flex flex-col items-center gap-8 px-4 py-8 md:flex-row">
       <div class="w-full m-5 md:w-[63%]">
       <img src="/images/award1.jpg" alt="award" class=" hover p-0 w-full h-auto rounded-lg shadow-lg ">              
       </div>
 <!--Award Desc -->
-      <div class="hover w-full m-10 md:w-1/2 rounded-lg shadow-lg">
+      <div data-aos="fade-left" class="hover w-full m-10 md:w-1/2 rounded-lg shadow-lg">
         <h2 class="header mb-4 text-3xl font-bold text-white">Award Winning Team</h2>
         <p class="desc text-lg leading-relaxed ">
           Our team was recognized for Best Web Application at TICap 18, showcasing our commitment to excellence in web development.

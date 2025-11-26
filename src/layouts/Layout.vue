@@ -23,7 +23,7 @@ const closeMenu = () => {
 <!-- fixed bg image -->
 <div class="fixed inset-0 w-full h-full bg-center bg-no-repeat bg-cover" style="background-image: url('./images/bg9.png'); background-attachment: fixed; "></div>
 <!-- Nav bar -->
-    <div class="relative ">
+    <div data-aos="fade-down" class="relative  ">
         <header class=" mt-8 fixed mx-auto max-w-6xl rounded-full left-0 right-0  bg-[#080c34]/10 backdrop-blur-md text-white text-xs p-2 max-w ">
             <nav class="flex items-center justify-between px-4">
                 <div class ="logo">
@@ -70,7 +70,7 @@ const closeMenu = () => {
 
 <!-- Floating Socials leftside (AI prompt)-->
 
-<div class="fixed flex-col  p-2 space-y-4  -translate-y-1/2 rounded-full shadow-lg  bottom-70 left-4 ~sm/md:~mr-12/60">
+<div data-aos="fade-up" class="fixed flex-col  p-2 space-y-4  -translate-y-1/2 rounded-full shadow-lg  bottom-70 left-4 ~sm/md:~mr-12/60">
   
     <!-- Facebook -->
    <a href="mailto:baldanojohnmark@gmail.com">

@@ -44,7 +44,7 @@
     @apply hover:bg-white/10 rounded-md duration-300 hover:scale-105 p-4 shadow-lg ;
 }
 .thin{
-   @apply font-thin text-sm pt-2 text-gray-300 pl-3;
+   @apply font-thin text-xs pt-2 text-gray-300 pl-3;
 }
 .socicons{
     @apply hover:scale-150 duration-300

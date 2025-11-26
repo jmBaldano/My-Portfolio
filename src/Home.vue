@@ -13,14 +13,14 @@
       </h1>
 
       </div> -->
-        <div class="mt-25 msl-10 home mx-auto">    
+        <div data-aos="fade-right" class="mt-25 msl-10 home mx-auto">    
             <h1 class="font-sans text-6xl font-bold text-gray-300  ">
             HEY THERE,
             </h1>
             <h2 class="font-sans text-6xl font-bold text-gray-300 ">
-              I'M <span class="text-[#4B5563] ">JOHN MARK BALDANO</span>
+              I'M <span class="text-[#4B5563] font-thin ">JOHN MARK BALDANO</span>
             </h2>
-            <p class="w-full max-w-2xl mt-6 font-mono text-2xl text-gray-400 flex">
+            <p class="w-full max-w-2xl mt-6 font-thin text-2xl text-gray-400 flex">
             A Web Developer &amp; UI/UX with a passion for creating beautiful and functional web applications
             </p>          
             

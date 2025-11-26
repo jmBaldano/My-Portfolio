@@ -4,7 +4,7 @@
             PROJECTS
         </h1>
         <!-- Coserve -->
-        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+        <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
             <div class="w-full md:w-[63%]">
                 <img src="/images/coserve1.png" alt="Coserve" class="hover rounded-lg shadow-lg">
             </div>
@@ -45,7 +45,7 @@
 
 
         <!-- Gamehaven -->
-        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+        <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
            
             <div class="w-full md:w-[70%]">
                 <img 
@@ -96,7 +96,7 @@
         </div>
 
 <!-- Portfolio proj -->
-        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+        <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
            
             <div class="w-full md:w-[70%]">
                 <img 
@@ -133,7 +133,7 @@
             </div>
         </div>
 <!-- Rock, Paper, Scissors proj-->
-        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+        <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
            
             <div class="w-full md:w-[70%]">
                 <img 
@@ -184,7 +184,7 @@
         </div>
 
         <!-- Real Estate Website -->
-        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+        <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
            
             <div class="w-full md:w-[70%]">
                 <img 
@@ -226,7 +226,7 @@
             </div>
         </div>
         <!-- Portfolio Website -->
-        <div class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+        <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
            
             <div class="w-full md:w-[70%]">
                 <img 
