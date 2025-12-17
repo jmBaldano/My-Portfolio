@@ -128,9 +128,9 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="figma" class="icons" />          
           </div>
           
-          <div class="flex flex-col items-center space-y-2">
+          <!-- <div class="flex flex-col items-center space-y-2">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" class="icons" />          
-          </div>
+          </div> -->
           
           <div class="flex flex-col items-center space-y-2">
           <img src="https://mccedddy.github.io/portfolio/static/media/chatgpt.689b0a43a215147a6ece49517020cad5.svg" alt="chatgpt" class="icons" />          
@@ -179,6 +179,10 @@
 
           <div class="flex flex-col items-center space-y-2">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="typescript" class="icons" />          
+          </div>
+          
+          <div class="flex flex-col items-center space-y-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="java" class="icons" />          
           </div>
           
           <div class="flex flex-col items-center space-y-2">

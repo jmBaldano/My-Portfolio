@@ -21,7 +21,7 @@
               I'M <span class="text-[#4B5563] font-thin ">JOHN MARK BALDANO</span>
             </h2>
             <p class="w-full max-w-2xl mt-6 font-thin text-2xl text-gray-400 flex">
-            A Web Developer &amp; UI/UX with a passion for creating beautiful and functional web applications
+            A Developer &amp; UI/UX with a passion for creating beautiful <br> and functional applications
             </p>          
             
             <!-- <button class="button text-gray-300"  >
