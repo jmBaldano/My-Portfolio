@@ -226,7 +226,7 @@
             </div>
         </div>
         <!-- Portfolio Website -->
-        <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
+        <!-- <div data-aos="fade-up" class="flex flex-col items-center md:flex-row gap-20 mt-10 px-4">
            
             <div class="w-full md:w-[70%]">
                 <img 
@@ -236,7 +236,7 @@
             </div>
             
             
-            <!-- Right Description -->
+            
             <div class="hover w-full m-10 md:w-1/2 rounded-lg shadow-lg">
                 <h2 class="header mb-4 text-3xl font-bold text-white">Portfolio Website</h2>
                 <p class="desc text-lg leading-relaxed">
@@ -248,7 +248,7 @@
                     </a>
                 </p>
                 
-                <!-- stack used -->
+                
                <div class="mt-6 flex flex-row space-x-3">
                     
                     <a href="https://www.vuejs.org" target="blank">
@@ -266,7 +266,7 @@
                     
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
